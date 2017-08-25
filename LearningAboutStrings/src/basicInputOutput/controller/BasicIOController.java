@@ -1,13 +1,28 @@
 package basicInputOutput.controller;
+import java.util.Scanner;
+
 
 public class BasicIOController 
 {
-	public void printGreeting()
+	private String firstName = "";
+	private String lastName = "";
+			
+	public BasicIOController(String first, String last)
 	{
-		String firstName = "Tucker ";
-		String lastName = "Gardner";
-		System.out.println(firstName + lastName);
+		firstName = first;
+		lastName = last;
 	}
+		public void printGreeting()
+		{
+			
+			System.out.println(firstName + lastName);
+		Scanner myScanner = new Scanner(System.in);
+			
+	String respone = myScanner.nextLine();
+		System.out.println(response);
+		
 	
+		}
 	
+		
 }
