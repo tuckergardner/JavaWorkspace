@@ -3,13 +3,14 @@ package studentManagement.model;
 
 public class Student
 {
-	boolean isCurrentStudent;
-	int gradeLevel;
-	int idNumber;
-	String name;
-	String gender;
-	int age;
-	double gpa;
+private boolean isCurrentStudent;
+private int gradeLevel;
+private int idNumber;
+private String name;
+private String gender;
+private int age;
+private double gpa;
+
 	
 	public Student()
 	{
