@@ -22,4 +22,12 @@ public Team(String teamName, double avgPPG, int numberOfPlayers, boolean winning
 	this.winningRecord = winningRecord;
 	
 }
+public String toString();
+{
+	String str = "this team doesn't exsist";
+			if (teamName != "")
+			{
+				str = teamName + "Has"  + numberOfPlayers + "players and is"
+			}
+}
 }
