@@ -17,9 +17,9 @@ public class StringCommands
 		System.out.println(reply);
 		if(reply.equals("charles"));		
 	}
-	system.out.println("hi charles");
+	System.out.println("hi charles");
 }
-}
+
 else
 {
 	system.out.print("idk");

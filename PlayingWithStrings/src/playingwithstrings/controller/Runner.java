@@ -13,6 +13,10 @@ public class Runner
 		
 		StringCommands myProgram = new StringCommands();
 		myProgram.charles();
+		
+		
+		WordReverser myReverser = new WordReverser();
+		System.out.println(myReverser.reverse(" Race car"));
 	}
 
 }
