@@ -14,7 +14,8 @@ public class WordReverser
 		String result = "";
 		for (int i = word.length(); i > -1;i--)
 		{
-			
+		else
+		{
 		}
 		
 		
